@@ -1,27 +1,95 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Карта города</title>
-    <style>
-        .map-placeholder {
-            width: 100%;
-            height: 500px;
-            background: #f0f0f0;
-            border: 2px dashed #ccc;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: Arial, sans-serif;
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Интерактивная карта с карточками</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #fffdf5;
+      padding: 20px;
+    }
+    h2 {
+      color: #00796b;
+    }
+    #map {
+      width: 100%;
+      height: 600px;
+      border-radius: 8px;
+    }
+    .popup-card {
+      width: 240px;
+      font-size: 13px;
+    }
+    .popup-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 6px;
+    }
+    .popup-card h4 {
+      margin: 0 0 4px;
+      font-size: 16px;
+      color: #333;
+    }
+    .popup-card p {
+      margin: 0;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-    <h1>Карта города</h1>
-    <div class="map-placeholder">
-        <h2>Здесь будет карта</h2>
-    </div>
+  <h2>Карта достопримечательностей</h2>
+  <div id="map"></div>
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script>
+    ymaps.ready(function () {
+        var map = new ymaps.Map("map", {
+            center: [55.751244, 37.618423],
+            zoom: 11
+        });
+
+        // Данные мест с локальными картинками
+        var places = [
+            {
+                name: "Красная площадь",
+                coords: [55.753930, 37.620795],
+                description: "Главная площадь Москвы, сердце столицы.",
+                image: "{% static 'images/redsquare.jpg' %}"
+            },
+            {
+                name: "ВДНХ",
+                coords: [55.8298, 37.6331],
+                description: "Выставочный комплекс с фонтанами и музеями.",
+                image: "{% static 'images/vdnh.jpg' %}"
+            },
+            {
+                name: "Москва-Сити",
+                coords: [55.7495, 37.5399],
+                description: "Современный деловой район с небоскрёбами.",
+                image: "{% static 'images/moscowcity.jpg' %}"
+            }
+        ];
+
+        // Добавляем метки с балунами
+        places.forEach(function(p) {
+            var placemark = new ymaps.Placemark(p.coords, {
+                balloonContent: `
+                    <div class="popup-card">
+                        <img src="${p.image}" alt="${p.name}">
+                        <h4>${p.name}</h4>
+                        <p>${p.description}</p>
+                    </div>
+                `
+            }, {
+                preset: 'islands#redDotIcon'
+            });
+            map.geoObjects.add(placemark);
+        });
+    });
+  </script>
 </body>
 </html>
