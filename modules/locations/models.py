@@ -1,14 +1,17 @@
 from django.db import models
+from ckeditor.fields import RichTextField
+
 
 class Place(models.Model):
     name = models.CharField(max_length=200)
-    description = models.TextField()
+    description = RichTextField(blank=True)
     latitude = models.DecimalField(max_digits=9, decimal_places=6)
     longitude = models.DecimalField(max_digits=9, decimal_places=6)
     image = models.ImageField(upload_to='places/', blank=True, null=True)
 
     def __str__(self):
         return self.name
+
 
 class PlaceImage(models.Model):
     place = models.ForeignKey(Place, on_delete=models.CASCADE, related_name='images')
