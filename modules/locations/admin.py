@@ -28,4 +28,4 @@ class PlaceAdmin(SortableAdminBase, admin.ModelAdmin):
         if obj.image:
             return format_html('<img src="{}" style="height:100px;border-radius:4px;" />', obj.image.url)
         return ""
-    main_image_preview.short_description = "Главное фото"
+    main_image_preview.short_description = "Главное фото" 

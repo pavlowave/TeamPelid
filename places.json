@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Лужники",
+    "description_short": "Главный стадион Москвы.",
+    "description_long": "<p>Стадион Лужники — крупнейший спортивный комплекс Москвы...</p>",
+    "coordinates": {"lat": 55.715765, "lng": 37.553924},
+    "imgs": ["media/places/luzhniki_1.jpg"]
+  },
+  {
+    "title": "Парк Зарядье",
+    "description_short": "Современный городской парк.",
+    "description_long": "<p>Парк Зарядье расположен рядом с Кремлём, известен своим «плавающим мостом»...</p>",
+    "coordinates": {"lat": 55.752023, "lng": 37.623152},
+    "imgs": ["media/places/zyardie_1.jpg"]
+  },
+  {
+    "title": "Большой театр",
+    "description_short": "Знаменитый театр оперы и балета.",
+    "description_long": "<p>Большой театр — один из самых известных театров в мире, расположенный на Театральной площади...</p>",
+    "coordinates": {"lat": 55.760186, "lng": 37.618866},
+    "imgs": ["media/places/bolshoi_1.jpg"]
+  },
+  {
+    "title": "Парк Горького",
+    "description_short": "Центральный парк культуры и отдыха.",
+    "description_long": "<p>Парк Горького — популярное место отдыха и спортивных мероприятий в Москве...</p>",
+    "coordinates": {"lat": 55.729723, "lng": 37.603493},
+    "imgs": ["media/places/gorky_1.jpg"]
+  },
+  {
+    "title": "Новодевичий монастырь",
+    "description_short": "Исторический монастырь на юго-западе Москвы.",
+    "description_long": "<p>Новодевичий монастырь включён в список Всемирного наследия ЮНЕСКО...</p>",
+    "coordinates": {"lat": 55.729262, "lng": 37.554563},
+    "imgs": ["media/places/novodevichiy_1.jpg"]
+  },
+  {
+    "title": "Сокольники",
+    "description_short": "Парк и выставочный комплекс.",
+    "description_long": "<p>Сокольники — исторический парк с разнообразными культурными мероприятиями...</p>",
+    "coordinates": {"lat": 55.796691, "lng": 37.677652},
+    "imgs": ["media/places/sokolniki_1.jpg"]
+  },
+  {
+    "title": "Третьяковская галерея",
+    "description_short": "Главная художественная галерея России.",
+    "description_long": "<p>Государственная Третьяковская галерея хранит уникальные произведения русского искусства...</p>",
+    "coordinates": {"lat": 55.741326, "lng": 37.620844},
+    "imgs": ["media/places/tretyakov_1.jpg"]
+  },
+  {
+    "title": "Казанский вокзал",
+    "description_short": "Один из крупных железнодорожных вокзалов Москвы.",
+    "description_long": "<p>Казанский вокзал обслуживает направления на восток и юг России...</p>",
+    "coordinates": {"lat": 55.770104, "lng": 37.657156},
+    "imgs": ["media/places/kazansky_1.jpg"]
+  },
+  {
+    "title": "Останкинская телебашня",
+    "description_short": "Высочайшая телебашня в России.",
+    "description_long": "<p>Останкинская телебашня — символ советской инженерной мысли...</p>",
+    "coordinates": {"lat": 55.819912, "lng": 37.611653},
+    "imgs": ["media/places/ostankino_1.jpg"]
+  },
+  {
+    "title": "Парк Филёвский",
+    "description_short": "Местный городской парк на западе Москвы.",
+    "description_long": "<p>Филёвский парк — уютное место для прогулок и семейного отдыха...</p>",
+    "coordinates": {"lat": 55.748315, "lng": 37.490956},
+    "imgs": ["media/places/filevskiy_1.jpg"]
+  },
+  {
+    "title": "Парк Измайлово",
+    "description_short": "Исторический и развлекательный парк.",
+    "description_long": "<p>Измайлово известно своими историческими ансамблями и ярмарками...</p>",
+    "coordinates": {"lat": 55.803601, "lng": 37.780127},
+    "imgs": ["media/places/izmailovo_1.jpg"]
+  },
+  {
+    "title": "ВДНХ малая сцена",
+    "description_short": "Малая сцена для выставок и мероприятий.",
+    "description_long": "<p>Комплекс малой сцены на территории ВДНХ...</p>",
+    "coordinates": {"lat": 55.832345, "lng": 37.634125},
+    "imgs": ["media/places/vdnh_small_1.jpg"]
+  },
+  {
+    "title": "Сад Эрмитаж",
+    "description_short": "Сад с зелёными насаждениями и фонтанами.",
+    "description_long": "<p>Сад Эрмитаж — тихий уголок для прогулок и фото...</p>",
+    "coordinates": {"lat": 55.764102, "lng": 37.592840},
+    "imgs": ["media/places/hermitage_1.jpg"]
+  },
+  {
+    "title": "Коломенское",
+    "description_short": "Историко-архитектурный музей-заповедник.",
+    "description_long": "<p>Коломенское — старинная усадьба с церквями и парками...</p>",
+    "coordinates": {"lat": 55.673441, "lng": 37.683923},
+    "imgs": ["media/places/kolomenskoye_1.jpg"]
+  },
+  {
+    "title": "Сад «Аптекарский огород»",
+    "description_short": "Ботанический сад Москвы.",
+    "description_long": "<p>Аптекарский огород — ботанический сад с редкими растениями...</p>",
+    "coordinates": {"lat": 55.782555, "lng": 37.598932},
+    "imgs": ["media/places/aptekarsky_1.jpg"]
+  },
+  {
+    "title": "Парк Победы",
+    "description_short": "Парк с мемориальными объектами.",
+    "description_long": "<p>Парк Победы посвящён событиям Великой Отечественной войны...</p>",
+    "coordinates": {"lat": 55.677835, "lng": 37.485189},
+    "imgs": ["media/places/pobeda_1.jpg"]
+  },
+  {
+    "title": "Парк Кузьминки",
+    "description_short": "Любимый районный парк Москвы.",
+    "description_long": "<p>Кузьминки — зелёный парк с прудами и аллеями...</p>",
+    "coordinates": {"lat": 55.711339, "lng": 37.813394},
+    "imgs": ["media/places/kuzminki_1.jpg"]
+  },
+  {
+    "title": "Парк Сокольники Южный",
+    "description_short": "Южная часть парка Сокольники.",
+    "description_long": "<p>Сокольники Южные — отличное место для прогулок и спорта...</p>",
+    "coordinates": {"lat": 55.788102, "lng": 37.681234},
+    "imgs": ["media/places/sokolniki_south_1.jpg"]
+  },
+  {
+    "title": "Парк Крылатское",
+    "description_short": "Парк и зоны отдыха на западе Москвы.",
+    "description_long": "<p>Крылатское — известный парк с прогулочными зонами и велодорожками...</p>",
+    "coordinates": {"lat": 55.749812, "lng": 37.423321},
+    "imgs": ["media/places/krylatskoe_1.jpg"]
+  },
+  {
+    "title": "Парк Бабушкинский",
+    "description_short": "Зелёный уголок на северо-востоке Москвы.",
+    "description_long": "<p>Бабушкинский парк — место для прогулок, детских площадок и спорта...</p>",
+    "coordinates": {"lat": 55.857652, "lng": 37.671458},
+    "imgs": ["media/places/babushkinsky_1.jpg"]
+  }
+]
