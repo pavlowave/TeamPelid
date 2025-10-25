@@ -12,7 +12,7 @@
 
 На сайте работает:
 - Главная страница с интерактивной картой
-- API эндпоинты (`/places-geojson/`, `/places/<id>/`)
+- API эндпоинты (`home/ [name='home_page']`,`/places-geojson/`, `/places/<id>/`)
 - Django-админка: [https://pavlowave.pythonanywhere.com/admin/](https://pavlowave.pythonanywhere.com/admin/)
   > При необходимости можно выдать доступ к админке для проверки прав администратора.
 
