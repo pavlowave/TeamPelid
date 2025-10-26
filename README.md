@@ -33,7 +33,6 @@
 
 - Python 3.10+
 - Django 4.x
-- Django REST Framework
 - Pillow (для изображений)
 - SQLite (по умолчанию)
 
