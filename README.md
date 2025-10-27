@@ -8,7 +8,7 @@
 ## 🌍 Онлайн-версия проекта
 
 Проект уже задеплоен и доступен онлайн:
-🔗 **[https://pavlowave.pythonanywhere.com/](https://pavlowave.pythonanywhere.com/)**
+🔗 **[https://pavlowave.pythonanywhere.com/](https://pavlowave.pythonanywhere.com/home/)**
 
 На сайте работает:
 - Главная страница с интерактивной картой
